@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="ТИШЬ — концептуальная архитектурная студия загородных домов." />
+    <meta name="theme-color" content="#1f211d" />
+    <title>ТИШЬ — архитектурная студия</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600&family=Prata&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#content">К содержанию</a>
+    <header class="site-header" data-header>
+      <a class="brand" href="#top" aria-label="ТИШЬ, на главную">ТИШЬ</a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+        <span class="sr-only">Открыть меню</span><span></span><span></span>
+      </button>
+      <nav id="site-nav" aria-label="Основная навигация">
+        <a href="#projects">Проекты</a>
+        <a href="#approach">Подход</a>
+        <a href="#studio">Студия</a>
+        <a href="#contact">Контакты</a>
+        <a class="nav-cta" href="#contact">Обсудить дом</a>
+      </nav>
+    </header>
+
+    <main id="content">
+      <section class="hero" id="top" aria-labelledby="hero-title">
+        <img class="hero-image" src="assets/pines-house.png" alt="Концептуальный дом из тёмного дерева и камня среди сосен после дождя" fetchpriority="high" />
+        <div class="hero-wash"></div>
+        <div class="hero-copy">
+          <h1 id="hero-title">Дом, в котором<br />слышно себя.</h1>
+          <div class="hero-bottom">
+            <p>Проектируем дома, которые продолжают ландшафт и отвечают вашему образу жизни.</p>
+            <a class="circle-link" href="#projects"><span>Смотреть<br />проекты</span><span aria-hidden="true">↓</span></a>
+          </div>
+        </div>
+      </section>
+
+      <section class="intro" aria-label="О студии">
+        <p>Не собираем дом из приёмов. Сначала слушаем участок, свет, тишину вокруг и привычки тех, кто будет здесь жить.</p>
+        <span aria-hidden="true">Т</span>
+      </section>
+
+      <section class="projects section" id="projects" aria-labelledby="projects-title">
+        <div class="section-heading">
+          <h2 id="projects-title">Выбранные<br />пространства</h2>
+          <p>Три концептуальных проекта — разные ответы на один вопрос: как сделать природу частью дома.</p>
+        </div>
+
+        <article class="project project-wide" id="pines">
+          <div class="project-image-wrap"><img src="assets/pines-house.png" alt="Дом среди сосен — концептуальный проект ТИШИ" loading="lazy" /></div>
+          <div class="project-meta"><p>01 / Лесной участок</p><p>184 м²</p></div>
+          <div class="project-copy"><h3>Дом среди сосен</h3><p>Дом раскрывается к утреннему свету и остаётся почти невидимым со стороны дороги. Каменный цоколь собирает рельеф, деревянный объём держит тепло.</p></div>
+          <details class="project-details"><summary>Подробнее <span aria-hidden="true">↘</span></summary><p>Общая гостиная выходит на закрытую террасу; спальни разведены по тихим крыльям. Прогулка от калитки к входу становится переходом из леса в дом.</p></details>
+        </article>
+
+        <div class="project-pair">
+          <article class="project project-tall" id="slope">
+            <div class="project-image-wrap"><img src="assets/hillside-house.png" alt="Дом на склоне с внутренним двором — концептуальный проект ТИШИ" loading="lazy" /></div>
+            <div class="project-meta"><p>02 / Открытый склон</p><p>216 м²</p></div>
+            <div class="project-copy"><h3>Тихий склон</h3><p>Четыре объёма собирают защищённый двор и оставляют взгляду дальний горизонт.</p></div>
+            <details class="project-details"><summary>Подробнее <span aria-hidden="true">↘</span></summary><p>Внутренний двор работает как летняя столовая и тихое место вне ветра. Светлая древесина со временем становится частью травы и камня.</p></details>
+          </article>
+          <article class="project project-tall project-offset" id="water">
+            <div class="project-image-wrap"><img src="assets/lake-house.png" alt="Дом у воды с деревянной террасой — концептуальный проект ТИШИ" loading="lazy" /></div>
+            <div class="project-meta"><p>03 / Берег воды</p><p>142 м²</p></div>
+            <div class="project-copy"><h3>Двор у воды</h3><p>Терраса становится берегом, а вода отражает свет дома после заката.</p></div>
+            <details class="project-details"><summary>Подробнее <span aria-hidden="true">↘</span></summary><p>Низкий широкий карниз защищает стекло от летнего солнца. Внутри нет коридора: все основные пространства смотрят на воду.</p></details>
+          </article>
+        </div>
+        <p class="concept-note">Все изображения и проекты на этой странице — концептуальные.</p>
+      </section>
+
+      <section class="approach section" id="approach" aria-labelledby="approach-title">
+        <div class="approach-lead">
+          <p>Дом не начинается с фасада.</p>
+          <h2 id="approach-title">Начинается с того,<br />как вы живёте.</h2>
+        </div>
+        <ol class="process-list">
+          <li><span>01</span><div><h3>Слушаем участок</h3><p>Рельеф, свет, ветер, существующие деревья и путь к дому становятся первыми линиями проекта.</p></div></li>
+          <li><span>02</span><div><h3>Собираем сценарий</h3><p>Обсуждаем утро, приезды гостей, работу из дома и тишину, которая вам нужна.</p></div></li>
+          <li><span>03</span><div><h3>Находим материал</h3><p>Дерево, камень и металл выбираем по тому, как они стареют и чувствуют себя именно здесь.</p></div></li>
+          <li><span>04</span><div><h3>Остаёмся рядом</h3><p>Сопровождаем реализацию, чтобы замысел не потерял точность в деталях.</p></div></li>
+        </ol>
+      </section>
+
+      <section class="studio" id="studio" aria-labelledby="studio-title">
+        <div class="studio-image"><img src="assets/hillside-house.png" alt="Тёплый вечер в концептуальном доме на склоне" loading="lazy" /></div>
+        <div class="studio-copy">
+          <p>ТИШЬ — это малая студия и внимательная работа над одним домом за раз.</p>
+          <h2 id="studio-title">Архитектура остаётся с человеком дольше, чем стройка.</h2>
+          <p>Поэтому мы не торопим решения. Нам важны честные материалы, ясная планировка и дом, который будет хорош и в первый день, и через много лет.</p>
+        </div>
+      </section>
+
+      <section class="contact" id="contact" aria-labelledby="contact-title">
+        <div class="contact-copy"><p>Первый разговор — это не обязательство. Это способ понять, есть ли у нас общий язык.</p><h2 id="contact-title">Каким будет<br />ваш дом?</h2></div>
+        <form class="contact-form" novalidate>
+          <div class="form-field"><label for="name">Как вас зовут</label><input id="name" name="name" autocomplete="name" required /><p class="field-error" id="name-error"></p></div>
+          <div class="form-field"><label for="contact-detail">Как с вами связаться</label><input id="contact-detail" name="contact" placeholder="Телефон или почта" autocomplete="email" required /><p class="field-error" id="contact-error"></p></div>
+          <div class="form-field"><label for="brief">Расскажите об участке или задаче</label><textarea id="brief" name="brief" rows="3" required></textarea><p class="field-error" id="brief-error"></p></div>
+          <button class="submit-button" type="submit">Отправить запрос <span aria-hidden="true">→</span></button>
+          <p class="form-status" role="status" aria-live="polite">Форма демонстрационная: отправка пока не подключена.</p>
+        </form>
+      </section>
+    </main>
+
+    <footer class="site-footer"><a class="brand" href="#top">ТИШЬ</a><p>Концептуальная архитектурная студия.<br />Проекты на сайте созданы для демонстрации.</p><a href="#contact">Написать нам <span aria-hidden="true">↗</span></a></footer>
+    <script src="script.js"></script>
+  </body>
+</html>
+

@@ -1,0 +1,15 @@
+{
+  "schema": 1,
+  "product": "ТИШЬ",
+  "mode": "persuade",
+  "surface": "index.html",
+  "direction": "architectural-editorial",
+  "tokens": {
+    "ink": "#1e201c",
+    "paper": "#d5d4ca",
+    "mist": "#c7c8bf",
+    "clay": "#a64f36",
+    "onDark": "#f4f0e4"
+  }
+}
+
